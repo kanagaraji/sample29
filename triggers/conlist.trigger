@@ -1,6 +1,6 @@
 trigger conlist on Contact (before insert,after update) 
 {
-sales force
+sales force test
 List<contact>listname=new List<contact>();
 for(contact co:trigger.new)
 {
